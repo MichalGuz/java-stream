@@ -1,12 +1,13 @@
 package com.stream;
 
-import com.stream.lambda.PrintSomething;
+import com.stream.lambda.ExecutePrintSomething;
+import com.stream.lambda.Processor;
+
 
 public class StreamMain {
     public static void main(String[] args) {
-        System.out.println("Exercises with functional programming - Java, interface Stream.");
-
-        PrintSomething printSomething = new PrintSomething();
-        printSomething.printSomething();
+        Processor processor = new Processor();
+        ExecutePrintSomething executePrintSomething = new ExecutePrintSomething();
+        processor.execute(executePrintSomething);
     }
 }
