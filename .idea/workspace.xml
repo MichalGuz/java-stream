@@ -177,8 +177,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="StreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.oop.StreamMain" />
+    <configuration name="OopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.oop.OopMain" />
       <module name="java-stream.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -215,7 +215,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamMain" />
+        <item itemvalue="Application.OopMain" />
       </list>
     </recent_temporary>
   </component>
