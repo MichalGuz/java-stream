@@ -1,8 +1,4 @@
-package com.stream;
-
-import com.stream.lambda.ExecutePrintSomething;
-import com.stream.lambda.Processor;
-
+package com.stream.lambda;
 
 public class StreamMain {
     public static void main(String[] args) {
