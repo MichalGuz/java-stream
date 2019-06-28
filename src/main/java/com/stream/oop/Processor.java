@@ -1,4 +1,4 @@
-package com.stream.lambda;
+package com.stream.oop;
 
 public class Processor {
     public void process(Executor executor){

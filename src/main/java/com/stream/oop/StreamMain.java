@@ -1,4 +1,4 @@
-package com.stream.lambda;
+package com.stream.oop;
 
 public class StreamMain {
     public static void main(String[] args) {
