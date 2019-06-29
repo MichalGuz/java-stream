@@ -5,6 +5,8 @@ public class CalculatorMain {
         ExpressionExecutor expressionExecutor = new ExpressionExecutor();
 
         expressionExecutor.executeExpression(10, 5, (a, b) -> a + b);
-
+        expressionExecutor.executeExpression(10, 5, (a, b) -> a - b);
+        expressionExecutor.executeExpression(10, 5, (a, b) -> a * b);
+        expressionExecutor.executeExpression(10, 5, (a, b) -> a / b);
     }
 }
