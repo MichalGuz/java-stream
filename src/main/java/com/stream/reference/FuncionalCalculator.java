@@ -5,4 +5,16 @@ public class FuncionalCalculator {
     public static double addAtoB(double a, double b){
         return a + b;
     }
+
+    public static double subtractBfromA(double a, double b){
+        return a - b;
+    }
+
+    public static double multiplyAByB(double a, double b){
+        return a * b;
+    }
+
+    public static double divideAByB(double a, double b){
+        return a / b;
+    }
 }
