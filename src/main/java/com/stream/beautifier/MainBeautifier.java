@@ -4,6 +4,7 @@ public class MainBeautifier {
     public static void main(String[] args) {
         TextBeautifier textBeautifier = new TextBeautifier();
 
-        textBeautifier.beautify("Some String", text -> textBeautifier.toString().concat("\nAAAAAA " + text + " AAAAAA" ));
+        textBeautifier.beautify("Some String", text -> "nAAAAAA " + text + " AAAAAA");
+
     }
 }
