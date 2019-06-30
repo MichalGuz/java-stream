@@ -5,6 +5,6 @@ public class MainBeautifier {
         TextBeautifier textBeautifier = new TextBeautifier();
 
         textBeautifier.beautify("Some String", text -> "nAAAAAA " + text + " AAAAAA");
-
+        textBeautifier.beautify("hello world", text -> text.toUpperCase());
     }
 }
