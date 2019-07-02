@@ -18,5 +18,12 @@ public class PersonMain {
         People.getList().stream()
                 .filter(p -> p.length() > 11)
                 .forEach(System.out::println);
+
+        People.getList().stream()
+                .map(String::toUpperCase)
+                .filter(p -> p.length() > 11)
+                .map(p -> p.substring(0, p.indexOf(' ') + 2) + ".")
+                .filter(p -> p.substring(0, 1).equals("M"))
+                .forEach(System.out::println);
     }
 }
