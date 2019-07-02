@@ -5,5 +5,9 @@ public class PersonMain {
         People.getList().stream()
                 .map(p -> p.toUpperCase())
                 .forEach(System.out::println);
+
+        People.getList().stream()
+                .map(String::toUpperCase)
+                .forEach(p -> System.out.println(p));
     }
 }
