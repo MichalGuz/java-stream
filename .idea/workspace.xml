@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="85">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -212,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamMain">
+  <component name="RunManager" selected="Application.PersonMain">
     <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stream.calculator.CalculatorMain" />
       <module name="java-stream.main" />
@@ -227,20 +228,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.lambda.LambdaMain" />
-      <module name="java-stream.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stream.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainBeautifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stream.beautifier.MainBeautifier" />
       <module name="java-stream.main" />
@@ -248,6 +235,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.stream.beautifier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.person.PersonMain" />
+      <module name="java-stream.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stream.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonMain" />
         <item itemvalue="Application.StreamMain" />
         <item itemvalue="Application.MainBeautifier" />
         <item itemvalue="Application.ReferenceMain" />
         <item itemvalue="Application.CalculatorMain" />
-        <item itemvalue="Application.LambdaMain" />
       </list>
     </recent_temporary>
   </component>
@@ -570,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
