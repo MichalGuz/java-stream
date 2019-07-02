@@ -11,5 +11,9 @@ public class PersonMain {
         People.getList().stream()
                 .map(String::toUpperCase)
                 .forEach(p -> System.out.println(p));
+
+        People.getList().stream()
+                .filter(p -> p.length() > 11)
+                .forEach(System.out::println);
     }
 }
