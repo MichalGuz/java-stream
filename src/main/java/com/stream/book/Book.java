@@ -22,5 +22,14 @@ public final class Book {
     public int getYearORelease() {
         return yearORelease;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                ", yearORelease=" + yearORelease +
+                '}';
+    }
 }
 
