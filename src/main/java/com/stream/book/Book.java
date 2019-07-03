@@ -10,5 +10,17 @@ public final class Book {
         this.title = title;
         this.yearORelease = yearORelease;
     }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getYearORelease() {
+        return yearORelease;
+    }
 }
 
