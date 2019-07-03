@@ -23,7 +23,7 @@ public class PersonMain {
                 .map(String::toUpperCase)
                 .filter(p -> p.length() > 11)
                 .map(p -> p.substring(0, p.indexOf(' ') + 2) + ".")
-                .filter(p -> p.substring(0, 1).equals("M"))
+                .filter(p -> p.substring(0, 1).equals("A"))
                 .forEach(System.out::println);
     }
 }
