@@ -15,4 +15,8 @@ public final class BookDirectory{
         bookList.add(new Book("Author6", "Book6", 2004));
         bookList.add(new Book("Author7", "Book7", 1995));
     }
+
+    public List<Book> getList(){
+        return new ArrayList<>(bookList);
+    }
 }
