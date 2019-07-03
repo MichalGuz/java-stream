@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="13" selection-start-line="13" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="146">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding>
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#403#404#0" expanded="true" />
@@ -40,6 +40,20 @@
                 <element signature="e#463#464#0" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
                 <element signature="e#534#535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stream/person/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java" />
       </list>
     </option>
   </component>
@@ -541,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" selection-start-line="13" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="146">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#403#404#0" expanded="true" />
@@ -550,6 +565,18 @@
             <element signature="e#463#464#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
