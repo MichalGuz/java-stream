@@ -12,8 +12,12 @@ public class BookMain {
                 .forEach(System.out::println);
 
         List<Book> theResultList = bookDirectory.getList().stream()
-                .filter(book -> book.getYearORelease() >2010)
-                .collect(Collectors.toList())
+                .filter(book -> book.getYearORelease() >2000)
+                .collect(Collectors.toList());
+
+        System.out.println("Elements in the list: " + theResultList.size());
+        theResultList.stream()
+                .forEach(System.out::println);
 
     }
 }
