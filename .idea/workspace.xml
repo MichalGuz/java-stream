@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,16 +45,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#648#649#0" expanded="true" />
                 <element signature="e#671#672#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/BookMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -103,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stream/book/BookMain.java" />
       </list>
     </option>
   </component>
@@ -191,14 +201,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PersonMain">
-    <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.calculator.CalculatorMain" />
+  <component name="RunManager" selected="Application.BookMain">
+    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.book.BookMain" />
       <module name="java-stream.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stream.calculator.*" />
+          <option name="PATTERN" value="com.stream.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookMain" />
         <item itemvalue="Application.PersonMain" />
         <item itemvalue="Application.StreamMain" />
         <item itemvalue="Application.MainBeautifier" />
         <item itemvalue="Application.ReferenceMain" />
-        <item itemvalue="Application.CalculatorMain" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +334,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -571,13 +581,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/BookDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#671#672#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/BookMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
