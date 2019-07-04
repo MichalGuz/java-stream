@@ -14,4 +14,8 @@ public final class ScooterSearch {
         list.add(new Scooter(005, "Y", "Regular", 60, false, 4, "rented"));
         list.add(new Scooter(006, "Y", "Big", 95, true, 1,"free'"));
     }
+
+    public List<Scooter> getList(){
+        return new ArrayList<>(list);
+    }
 }
