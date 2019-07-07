@@ -28,4 +28,14 @@ public final class Room {
     public String getReservation() {
         return reservation;
     }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "roomNumber=" + roomNumber +
+                ", roomSize='" + roomSize + '\'' +
+                ", roomAvailable=" + roomAvailable +
+                ", reservation='" + reservation + '\'' +
+                '}';
+    }
 }
