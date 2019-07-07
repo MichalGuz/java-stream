@@ -9,6 +9,6 @@ public class RoomMain {
         Map<Integer, Room> roomMap = roomCheck.getList().stream()
                 .filter(room -> room.isRoomAvailable() == false)
                 .filter(room -> room.getReservation() == "")
-
+                .map(Room::toString)
     }
 }
