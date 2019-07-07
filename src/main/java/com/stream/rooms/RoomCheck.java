@@ -4,5 +4,5 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class RoomCheck {
-    List<Room> roomList = new ArrayList<>();
+    private final List<Room> roomList = new ArrayList<>();
 }
