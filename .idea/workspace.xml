@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stream/rooms/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -106,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/scooter/ScooterMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -114,6 +115,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/rooms/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -166,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/Scooter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/ScooterSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/ScooterMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stream/rooms/Room.java" />
       </list>
     </option>
   </component>
@@ -223,6 +234,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="rooms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
@@ -381,7 +401,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.27912623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -702,6 +721,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/rooms/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>

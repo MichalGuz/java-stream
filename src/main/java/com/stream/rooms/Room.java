@@ -1,4 +1,4 @@
 package com.stream.rooms;
 
-public class Room {
+public final class Room {
 }
