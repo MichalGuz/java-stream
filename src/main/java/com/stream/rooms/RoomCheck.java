@@ -1,5 +1,7 @@
 package com.stream.rooms;
 
+import com.stream.book.Book;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,5 +15,9 @@ public final class RoomCheck {
         roomList.add(new Room(4, "double", false, "Ms Helen Osborn"));
         roomList.add(new Room(5, "double", false, "Ms Lisa Parker"));
         roomList.add(new Room(6, "single", true, ""));
+    }
+
+    public List<Room> getList(){
+        return new ArrayList<>(roomList);
     }
 }
