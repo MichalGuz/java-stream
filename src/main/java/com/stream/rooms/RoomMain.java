@@ -12,5 +12,7 @@ public class RoomMain {
                 .filter(room -> room.getReservation() == "")
                 .map(Room::toString)
                 .collect(Collectors.joining(",\n", "Start list of rooms :", "List is finished and ready."));
+
+        System.out.println(resultsOfStream);
     }
 }
