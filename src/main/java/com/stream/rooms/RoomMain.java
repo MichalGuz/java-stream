@@ -9,7 +9,7 @@ public class RoomMain {
 
         String resultsOfStream = roomCheck.getList().stream()
                 .filter(room -> room.isRoomAvailable() == false)
-                .filter(room -> room.getReservation() == "")
+                .filter(room -> room.getReservation() != "")
                 .map(Room::toString)
                 .collect(Collectors.joining(",\n", "Start list of rooms :", "List is finished and ready."));
 
