@@ -7,7 +7,8 @@ public class RoomMain {
         RoomCheck roomCheck = new RoomCheck();
 
         Map<Integer, Room> roomMap = roomCheck.getList().stream()
-                .filter(room -> room.getReservation() != "")
+                .filter(room -> room.isRoomAvailable() == false)
+                .filter(room -> room.getReservation() == "")
 
     }
 }
