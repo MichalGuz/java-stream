@@ -6,7 +6,7 @@ public final class Room {
     private final boolean roomAvailable;
     private final String reservation;
 
-    public Room(int roomNumber, String roomSize, boolean roomAvailable, String reservation) {
+    public Room(final int roomNumber, final String roomSize, final boolean roomAvailable, final String reservation) {
         this.roomNumber = roomNumber;
         this.roomSize = roomSize;
         this.roomAvailable = roomAvailable;
