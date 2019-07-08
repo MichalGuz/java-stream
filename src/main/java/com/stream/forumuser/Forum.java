@@ -5,5 +5,4 @@ import java.util.List;
 
 public final class Forum {
     private final List<ForumUser> forumUserList = new ArrayList<>();
-
 }

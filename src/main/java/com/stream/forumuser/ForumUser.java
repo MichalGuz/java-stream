@@ -8,4 +8,34 @@ public final class ForumUser {
     private final char sex;
     private final LocalDate dateOBirth;
     private final int postsQuantity;
+
+    public ForumUser(int id, String name, char sex, LocalDate dateOBirth, int postsQuantity) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+        this.dateOBirth = dateOBirth;
+        this.postsQuantity = postsQuantity;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public LocalDate getDateOBirth() {
+        return dateOBirth;
+    }
+
+    public int getPostsQuantity() {
+        return postsQuantity;
+    }
+
+
 }
