@@ -37,5 +37,14 @@ public final class ForumUser {
         return postsQuantity;
     }
 
-
+    @Override
+    public String toString() {
+        return "ForumUser{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", sex=" + sex +
+                ", dateOBirth=" + dateOBirth +
+                ", postsQuantity=" + postsQuantity +
+                '}';
+    }
 }
