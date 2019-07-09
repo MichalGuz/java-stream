@@ -7,5 +7,7 @@ public class ForumMain {
         Forum forum = new Forum();
 
         Map<Integer, ForumUser> resultsMap = forum.getForumUserList().stream()
+                .filter(user -> user.getSex() == 'M')
+
     }
 }
