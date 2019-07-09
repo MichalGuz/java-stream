@@ -6,6 +6,6 @@ public class ForumMain {
     public static void main(String[] args) {
         Forum forum = new Forum();
 
-        Map<Integer, ForumUser> resultsMap;
+        Map<Integer, ForumUser> resultsMap = forum.getForumUserList().stream()
     }
 }
