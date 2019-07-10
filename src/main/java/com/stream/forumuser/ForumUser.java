@@ -9,11 +9,11 @@ public final class ForumUser {
     private final LocalDate dateOBirth;
     private final int postsQuantity;
 
-    public ForumUser(int id, String name, char sex, LocalDate dateOBirth, int postsQuantity) {
+    public ForumUser(int id, String name, char sex, int year, int month, int day, int postsQuantity) {
         this.id = id;
         this.name = name;
         this.sex = sex;
-        this.dateOBirth = dateOBirth;
+        this.dateOBirth = LocalDate.of(year, month, day);
         this.postsQuantity = postsQuantity;
     }
 
