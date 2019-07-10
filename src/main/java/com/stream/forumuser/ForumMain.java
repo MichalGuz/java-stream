@@ -1,5 +1,7 @@
 package com.stream.forumuser;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Map;
 
 public class ForumMain {
@@ -8,6 +10,7 @@ public class ForumMain {
 
         Map<Integer, ForumUser> resultsMap = forum.getForumUserList().stream()
                 .filter(user -> user.getSex() == 'M')
+                .filter(user -> user.getDateOBirth().getYear() - LocalDate.now().getYear() > 19)
 
     }
 }
