@@ -9,7 +9,7 @@ public class ForumMain {
         Forum forum = new Forum();
 
         Map<Integer, ForumUser> resultsMap = forum.getForumUserList().stream()
-                .filter(user -> user.getSex() == 'M')
+                .filter(user -> user.getSex() == 'm')
                 .filter(user -> user.getDateOBirth().getYear() - LocalDate.now().getYear() > 19)
                 .filter(user -> user.getPostsQuantity() > 0)
                 .collect(Collectors.toMap(ForumUser::getId, user -> user));
