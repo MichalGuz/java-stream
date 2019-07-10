@@ -14,5 +14,9 @@ public class ForumMain {
                 .filter(user -> user.getPostsQuantity() > 0)
                 .collect(Collectors.toMap(ForumUser::getId, user -> user));
 
+        System.out.println("Numbers of specific users (male, over 19 year, with post/posts published on the forum): \n" + resultsMap.size());
+        resultsMap.entrySet().stream()
+                .map(entry -> entry.getKey() + ": " +  entry.getValue())
+                .forEach(System.out::println);
     }
 }
