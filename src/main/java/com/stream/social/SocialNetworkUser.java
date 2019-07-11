@@ -22,4 +22,20 @@ public final class SocialNetworkUser {
     public boolean removeFriend(SocialNetworkUser user){
         return friends.remove(user);
     }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Set<SocialNetworkUser> getFriends() {
+        return friends;
+    }
 }
