@@ -3,6 +3,7 @@ package com.stream.social;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public final class SocialNetworkUser {
     private final String userName;
@@ -60,5 +61,11 @@ public final class SocialNetworkUser {
                 ", location='" + location + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public Set<String> getLocationOfFriends(){
+        return friends.stream()
+                .map(friend -> friend.getLocation())
+                .collect(Collectors.toSet());
     }
 }
