@@ -8,4 +8,10 @@ public final class SocialNetworkUser {
     private final String location;
     private final int age;
     private final Set<SocialNetworkUser> friends = new HashSet<>();
+
+    public SocialNetworkUser(String userName, String location, int age) {
+        this.userName = userName;
+        this.location = location;
+        this.age = age;
+    }
 }
