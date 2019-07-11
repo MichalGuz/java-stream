@@ -14,4 +14,8 @@ public final class SocialNetworkUser {
         this.location = location;
         this.age = age;
     }
+
+    public void addFriend(SocialNetworkUser user){
+        friends.add(user);
+    }
 }
