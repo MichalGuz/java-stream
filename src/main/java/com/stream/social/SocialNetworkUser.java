@@ -1,6 +1,7 @@
 package com.stream.social;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public final class SocialNetworkUser {
@@ -37,5 +38,27 @@ public final class SocialNetworkUser {
 
     public Set<SocialNetworkUser> getFriends() {
         return friends;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SocialNetworkUser that = (SocialNetworkUser) o;
+        return userName.equals(that.userName);
+    }
+
+    @Override
+    public int hashCode() {
+        return userName.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return "SocialNetworkUser{" +
+                "userName='" + userName + '\'' +
+                ", location='" + location + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
