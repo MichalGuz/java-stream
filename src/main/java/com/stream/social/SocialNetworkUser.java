@@ -18,4 +18,8 @@ public final class SocialNetworkUser {
     public void addFriend(SocialNetworkUser user){
         friends.add(user);
     }
+
+    public boolean removeFriend(SocialNetworkUser user){
+        return friends.remove(user);
+    }
 }
