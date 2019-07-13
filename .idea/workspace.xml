@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/social/SocialNetworkUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/social/SocialNetworkUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stream/social/SocialNetworkUserTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stream/social/SocialNetworkUserTestSuite.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -111,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/social/SocialNetworkUserTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="136" column="41" lean-forward="true" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
+            <state relative-caret-position="319">
+              <caret line="144" column="88" selection-start-line="144" selection-start-column="88" selection-end-line="144" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -872,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/social/SocialNetworkUserTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="136" column="41" lean-forward="true" selection-start-line="136" selection-start-column="41" selection-end-line="136" selection-end-column="41" />
+        <state relative-caret-position="319">
+          <caret line="144" column="88" selection-start-line="144" selection-start-column="88" selection-end-line="144" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
