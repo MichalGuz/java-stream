@@ -1,5 +1,7 @@
 package com.stream.invoice.simple;
 
+import java.util.Objects;
+
 public final class SimpleProduct {
     private final String productName;
     private final double productPrice;
@@ -15,5 +17,13 @@ public final class SimpleProduct {
 
     public double getProductPrice() {
         return productPrice;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SimpleProduct that = (SimpleProduct) o;
+        return Objects.equals(getProductName(), that.getProductName());
     }
 }
