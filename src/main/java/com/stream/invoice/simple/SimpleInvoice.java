@@ -9,4 +9,8 @@ public final class SimpleInvoice {
     public void addItem(SimpleItem item){
         items.add(item);
     }
+
+    public boolean removeItem(SimpleItem item){
+        return items.remove(item);
+    }
 }
