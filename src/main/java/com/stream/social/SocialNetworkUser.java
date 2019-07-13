@@ -65,7 +65,7 @@ public final class SocialNetworkUser {
                 '}';
     }
 
-    public Set<String> getLocationOfFriends(){
+    public Set<String> getLocationOfFriendsOfFriends(){
         return friends.stream()
                 .flatMap(friend -> friend.getFriends().stream())
                 .filter(user -> user != this)
