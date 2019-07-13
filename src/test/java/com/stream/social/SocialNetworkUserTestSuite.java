@@ -129,5 +129,19 @@ public class SocialNetworkUserTestSuite {
         user10.addFriend(user2);
         user10.addFriend(user4);
         user10.addFriend(user8);
+
+        //then
+        // user4 has 2 friends with following friends and their locations:
+        //      user2: user1 - location1
+        //             user4 - should be skipped ("this" in context of user1)
+        //             user10 - location2
+        //     user10: user2 - location2
+        //             user4 - should be skipped ("this" in context of user1)
+        //             user8 - location4
+        Assert.assertEquals(3, user4.getLocationOfFriendsOfFriends().size());
+        Assert.assertTrue(user4.getLocationOfFriendsOfFriends().contains("location1"));
+        Assert.assertTrue(user4.getLocationOfFriendsOfFriends().contains("location2"));
+        Assert.assertTrue(user4.getLocationOfFriendsOfFriends().contains("location4"));
+        Assert.assertFalse(user4.getLocationOfFriendsOfFriends().contains("location3"));
     }
 }
