@@ -57,9 +57,9 @@ public class SocialNetworkUserTestSuite {
         user9.addFriend(user6);
         user9.addFriend(user7);
         // create relations for user 10
-        user9.addFriend(user2);
-        user9.addFriend(user4);
-        user9.addFriend(user8);
+        user10.addFriend(user2);
+        user10.addFriend(user4);
+        user10.addFriend(user8);
 
         // then
         // user4 has 2 friends from location2 (which means: from 1 location!!!)
@@ -126,11 +126,8 @@ public class SocialNetworkUserTestSuite {
         user9.addFriend(user6);
         user9.addFriend(user7);
         // create relations for user 10
-        user9.addFriend(user2);
-        user9.addFriend(user4);
-        user9.addFriend(user8);
-
-
-
+        user10.addFriend(user2);
+        user10.addFriend(user4);
+        user10.addFriend(user8);
     }
 }
