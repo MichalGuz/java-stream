@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/invoice/simple/SimpleInvoiceTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -389,21 +389,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 19h 54m 38s.xml">
-      <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 20h 00m 16s.xml">
-      <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 20h 01m 01s.xml">
-      <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 20h 01m 26s.xml">
-      <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 20h 02m 32s.xml">
-      <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 20h 07m 14s.xml">
       <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -419,9 +404,24 @@
     <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 20h 20m 51s.xml">
       <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 34m 49s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 35m 55s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 38m 01s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 39m 35s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 40m 30s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.23786408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -898,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/invoice/simple/SimpleInvoiceTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
