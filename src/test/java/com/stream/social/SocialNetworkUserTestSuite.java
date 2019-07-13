@@ -1,5 +1,6 @@
 package com.stream.social;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class SocialNetworkUserTestSuite {
@@ -59,5 +60,16 @@ public class SocialNetworkUserTestSuite {
         user9.addFriend(user2);
         user9.addFriend(user4);
         user9.addFriend(user8);
+
+        // then
+        // user4 has 2 friends from location2 (which means: from 1 location!!!)
+        // user 8 has 3 fiends from 3 different locations: location1, location2 and location3
+        Assert.assertEquals(1, user4.getLocationOfFriends().size());
+        Assert.assertEquals(3, user8.getLocationOfFriends().size());
+        Assert.assertTrue(user4.getLocationOfFriends().contains("location2"));
+        Assert.assertTrue(user8.getLocationOfFriends().contains("location1"));
+        Assert.assertTrue(user8.getLocationOfFriends().contains("location2"));
+        Assert.assertTrue(user8.getLocationOfFriends().contains("location3"));
+        Assert.assertFalse(user8.getLocationOfFriends().contains("location4"));
     }
 }
