@@ -1,5 +1,7 @@
 package com.stream.social;
 
+import com.stream.forumuser.ForumUser;
+
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -67,7 +69,7 @@ public final class SocialNetworkUser {
         return friends.stream()
                 .flatMap(friend -> friend.getFriends().stream())
                 .filter(user -> user != this)
-                .map(friend -> friend.getLocation())
+                .map(SocialNetworkUser::getLocation)
                 .collect(Collectors.toSet());
     }
 }
