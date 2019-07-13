@@ -65,7 +65,8 @@ public final class SocialNetworkUser {
 
     public Set<String> getLocationOfFriends(){
         return friends.stream()
-                .flatMap(user -> user.getFriends().stream())
+                .flatMap(friend -> friend.getFriends().stream())
+                .filter(user -> user != this)
                 .map(friend -> friend.getLocation())
                 .collect(Collectors.toSet());
     }
