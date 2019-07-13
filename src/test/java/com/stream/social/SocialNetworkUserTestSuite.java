@@ -72,4 +72,9 @@ public class SocialNetworkUserTestSuite {
         Assert.assertTrue(user8.getLocationOfFriends().contains("location3"));
         Assert.assertFalse(user8.getLocationOfFriends().contains("location4"));
     }
+
+    @Test
+    public void testOfGetLocationsOfFriendsOfFriends(){
+
+    }
 }
