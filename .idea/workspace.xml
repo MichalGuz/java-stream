@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/stream/invoice/simple/SimpleInvoiceTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/stream/invoice/simple/SimpleInvoiceTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stream.invoice.simple.SimpleInvoiceTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.stream.invoice.simple.SimpleInvoiceTestSuite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stream.invoice.simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.stream.invoice.simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.stream.invoice.simple.SimpleInvoiceTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.stream.invoice.simple.SimpleInvoiceTestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stream/invoice/simple/SimpleInvoiceTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stream/invoice/simple/SimpleInvoiceTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/Africa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/Africa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/SandStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/SandStorage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,7 +30,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleProduct.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleProduct.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
@@ -52,9 +39,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleItem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="323">
               <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="e#320#321#0" expanded="true" />
@@ -67,7 +54,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleInvoice.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleInvoice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
               <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
@@ -78,12 +65,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/invoice/simple/SimpleInvoiceTestSuite.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/invoice/delta/SimpleInvoiceTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="289">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/SandStorage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/Africa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,6 +159,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleInvoice.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stream/invoice/simple/SimpleInvoiceTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/SandStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/Africa.java" />
       </list>
     </option>
   </component>
@@ -204,7 +216,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdecimal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +246,7 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="delta" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,18 +408,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SocialNetworkUserTestSuite - 2019.07.13 at 20h 20m 51s.xml">
-      <configuration name="SocialNetworkUserTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 34m 49s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 35m 55s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 38m 01s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SimpleInvoiceTestSuite - 2019.07.13 at 22h 39m 35s.xml">
       <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -425,6 +425,18 @@
     </history-entry>
     <history-entry file="SimpleInvoiceTestSuite - 2019.07.14 at 13h 38m 51s.xml">
       <configuration name="SimpleInvoiceTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite_testGetValueToPay - 2019.07.14 at 13h 46m 21s.xml">
+      <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite_testGetValueToPay - 2019.07.14 at 13h 47m 12s.xml">
+      <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite_testGetValueToPay - 2019.07.14 at 13h 48m 09s.xml">
+      <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleInvoiceTestSuite_testGetValueToPay - 2019.07.14 at 13h 50m 15s.xml">
+      <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -460,7 +472,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.23786408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.24595469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,7 +481,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5023148" side_tool="true" weight="0.2540453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -855,16 +867,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/simple.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleInvoice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="231">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/invoice/delta/SimpleInvoiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="e#320#321#0" expanded="true" />
@@ -875,21 +907,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/simple/SimpleInvoice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/SandStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/invoice/simple/SimpleInvoiceTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/Africa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
