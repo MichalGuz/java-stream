@@ -1,4 +1,4 @@
-package com.stream.invoice.simple;
+package com.stream.invoice.delta;
 
 public final class SimpleItem {
     private final SimpleProduct product;

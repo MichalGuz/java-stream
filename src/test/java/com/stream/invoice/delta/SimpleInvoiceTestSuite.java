@@ -1,4 +1,4 @@
-package com.stream.invoice.simple;
+package com.stream.invoice.delta;
 
 import org.junit.Assert;
 import org.junit.Test;
