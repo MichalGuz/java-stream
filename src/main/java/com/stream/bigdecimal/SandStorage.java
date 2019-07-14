@@ -1,5 +1,7 @@
 package com.stream.bigdecimal;
 
+import java.math.BigDecimal;
+
 public interface SandStorage {
-    long getSandBeansQuantity();
+    BigDecimal getSandBeansQuantity();
 }
