@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.stream.invoice.simple.SimpleInvoiceTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-07-14T11:38:48" hostname="Dell-Komputer" time="0.058">
+<testsuite name="com.stream.invoice.simple.SimpleInvoiceTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-07-14T11:48:08" hostname="Dell-Komputer" time="0.048">
   <properties/>
-  <testcase name="testGetValueToPay" classname="com.stream.invoice.simple.SimpleInvoiceTestSuite" time="0.058">
-    <failure message="java.lang.AssertionError: expected:&lt;119.578&gt; but was:&lt;119.55799999999999&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;119.578&gt; but was:&lt;119.55799999999999&gt;
+  <testcase name="testGetValueToPay" classname="com.stream.invoice.simple.SimpleInvoiceTestSuite" time="0.048">
+    <failure message="java.lang.AssertionError: expected:&lt;119.557&gt; but was:&lt;119.55799999999999&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;119.557&gt; but was:&lt;119.55799999999999&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
