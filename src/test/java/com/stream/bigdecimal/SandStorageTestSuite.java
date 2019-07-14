@@ -1,5 +1,6 @@
 package com.stream.bigdecimal;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
@@ -20,6 +21,11 @@ public class SandStorageTestSuite {
         for(SandStorage continent: continents){
             totalSand = totalSand.add(continent.getSandBeansQuantity());
         }
+
+
+        // then
+        BigDecimal excpectedTotalSand = new BigDecimal("10099999999999993456731");
+        Assert.assertEquals(excpectedTotalSand, totalSand);
     }
 
 }
