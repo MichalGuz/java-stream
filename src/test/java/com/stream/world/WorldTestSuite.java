@@ -1,5 +1,6 @@
 package com.stream.world;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
@@ -28,6 +29,10 @@ public class WorldTestSuite {
         BigDecimal temp = BigDecimal.ZERO;
         World world = new World("planet", temp, continents);
         BigDecimal totalPeople = world.getPeopleQuantity();
+
+        // then
+        BigDecimal expected = new BigDecimal("393000000");
+        Assert.assertEquals(expected, totalPeople);
 
     }
 }
