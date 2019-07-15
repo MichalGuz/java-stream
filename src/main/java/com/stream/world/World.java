@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class World extends Country{
+    BigDecimal peopleQunatity;
     List<Continent> continents = new ArrayList<>();
 
     @Override
@@ -12,7 +13,7 @@ public class World extends Country{
         BigDecimal totalPeople = continents.stream()
                 .flatMap(continent -> continent.countries.stream())
                 .map(country -> country.getPeopleQuantity())
-                .reduce(BigDecimal::add);
+                .reduce(BigDecimal.ZERO, (sum, current) -> sum = sum.add(current));
         return totalPeople;
     }
 
