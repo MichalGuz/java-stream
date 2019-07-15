@@ -9,7 +9,11 @@ public class World extends Country{
 
     @Override
     public BigDecimal getPeopleQuantity(BigDecimal peopleQuantity){
-        return peopleQuantity;
+        BigDecimal totalPeople = continents.stream()
+                .flatMap(continent -> continent.countries.stream())
+                .map(country -> country.getPeopleQuantity())
+                .reduce(BigDecimal::add);
+        return totalPeople;
     }
 
 }
