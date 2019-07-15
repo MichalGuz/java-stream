@@ -11,7 +11,7 @@ public class SandStorageTestSuite {
     @Test
     public void testGetSandBeansQuantity(){
         // given
-        List<SandStorage> continents= new ArrayList<>();
+        List<SandStorage> continents = new ArrayList<>();
         continents.add(new Africa());
         continents.add(new Asia());
         continents.add(new Australia());
@@ -26,6 +26,11 @@ public class SandStorageTestSuite {
         // then
         BigDecimal excpectedTotalSand = new BigDecimal("10099999999999993456731");
         Assert.assertEquals(excpectedTotalSand, totalSand);
+    }
+
+    @Test
+    public void testGetSandBeansQuantityWithReduce(){
+
     }
 
 }
