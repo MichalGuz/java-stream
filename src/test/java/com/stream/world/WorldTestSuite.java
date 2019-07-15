@@ -20,4 +20,9 @@ public class WorldTestSuite {
         asia.add(new Country("Israel", new BigDecimal("22000000")));
         asia.add(new Country("Japan", new BigDecimal("127000000")));
 
+        List<Continent> continents = new ArrayList<>();
+        continents.add(new Continent("Europe", europe));
+        continents.add(new Continent("Asia", asia));
+
+
     }
