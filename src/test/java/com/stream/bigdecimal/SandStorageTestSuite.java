@@ -35,6 +35,11 @@ public class SandStorageTestSuite {
         continents.add(new Africa());
         continents.add(new Asia());
         continents.add(new Australia());
+
+        // when
+        BigDecimal totalSand = continents.stream()
+                .map(SandStorage::getSandBeansQuantity)
+                .reduce(BigDecimal.ZERO, (sum, current) -> sum = sum.add(current));
     }
 
 }
