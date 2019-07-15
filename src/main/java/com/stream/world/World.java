@@ -8,7 +8,7 @@ public class World extends Country{
     List<Continent> continents = new ArrayList<>();
 
     @Override
-    public BigDecimal getPeopleQuantity(BigDecimal peopleQuantity){
+    public BigDecimal getPeopleQuantity(){
         BigDecimal totalPeople = continents.stream()
                 .flatMap(continent -> continent.countries.stream())
                 .map(country -> country.getPeopleQuantity())
