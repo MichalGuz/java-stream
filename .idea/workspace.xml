@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stream/bigdecimal/SandStorageTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stream/bigdecimal/SandStorageTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/bigdecimal/SandStorageTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="350">
+              <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,21 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SandStorageTestSuite.testGetSandBeansQuantity">
-    <configuration name="ForumMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.forumuser.ForumMain" />
-      <module name="java-stream.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stream.forumuser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -288,6 +273,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.stream.bigdecimal.SandStorageTestSuite.testGetSandBeansQuantity&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SandStorageTestSuite.testGetSandBeansQuantityWithReduce" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.stream.bigdecimal.SandStorageTestSuite.testGetSandBeansQuantityWithReduce&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -380,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce" />
         <item itemvalue="Gradle.SandStorageTestSuite.testGetSandBeansQuantity" />
         <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
         <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
         <item itemvalue="Gradle.SocialNetworkUserTestSuite" />
-        <item itemvalue="Application.ForumMain" />
       </list>
     </recent_temporary>
   </component>
@@ -928,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/bigdecimal/SandStorageTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="350">
+          <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
