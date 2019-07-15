@@ -30,7 +30,11 @@ public class SandStorageTestSuite {
 
     @Test
     public void testGetSandBeansQuantityWithReduce(){
-
+        // given
+        List<SandStorage> continents = new ArrayList<>();
+        continents.add(new Africa());
+        continents.add(new Asia());
+        continents.add(new Australia());
     }
 
 }
