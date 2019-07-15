@@ -15,4 +15,9 @@ public class WorldTestSuite {
         europe.add(new Country("Germany", new BigDecimal("81000000")));
         europe.add(new Country("France", new BigDecimal("65000000")));
         europe.add(new Country("Italy", new BigDecimal("60000000")));
-}
+
+        List<Country> asia = new ArrayList<>();
+        asia.add(new Country("Israel", new BigDecimal("22000000")));
+        asia.add(new Country("Japan", new BigDecimal("127000000")));
+
+    }
