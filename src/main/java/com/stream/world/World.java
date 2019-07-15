@@ -7,6 +7,11 @@ import java.util.List;
 public class World extends Country{
     List<Continent> continents = new ArrayList<>();
 
+    public World(String name, BigDecimal peopleQuantity, List<Continent> continents) {
+        super(name, peopleQuantity);
+        this.continents = continents;
+    }
+
     @Override
     public BigDecimal getPeopleQuantity(){
         BigDecimal totalPeople = continents.stream()
