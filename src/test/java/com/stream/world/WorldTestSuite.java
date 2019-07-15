@@ -24,6 +24,10 @@ public class WorldTestSuite {
         continents.add(new Continent(europe));
         continents.add(new Continent(asia));
 
+        // when
+        BigDecimal temp = BigDecimal.ZERO;
+        World world = new World("planet", temp, continents);
+        BigDecimal totalPeople = world.getPeopleQuantity();
 
     }
 }
