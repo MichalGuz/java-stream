@@ -8,7 +8,7 @@ import java.util.List;
 
 public class WorldTestSuite {
     @Test
-    public void testGetPeopleQuantity(){
+    public void testGetPeopleQuantity() {
         // given
         List<Country> europe = new ArrayList<>();
         europe.add(new Country("Poland", new BigDecimal("38000000")));
@@ -21,8 +21,9 @@ public class WorldTestSuite {
         asia.add(new Country("Japan", new BigDecimal("127000000")));
 
         List<Continent> continents = new ArrayList<>();
-        continents.add(new Continent("Europe", europe));
-        continents.add(new Continent("Asia", asia));
+        continents.add(new Continent(europe));
+        continents.add(new Continent(asia));
 
 
     }
+}
