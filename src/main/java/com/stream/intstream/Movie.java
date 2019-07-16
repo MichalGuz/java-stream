@@ -11,5 +11,15 @@ public final class Movie {
         this.lenghtInMinutes = lenghtInMinutes;
     }
 
+    public String getTitle() {
+        return title;
+    }
 
+    public int getYearORelease() {
+        return yearORelease;
+    }
+
+    public int getLenghtInMinutes() {
+        return lenghtInMinutes;
+    }
 }
