@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,8 +43,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/lambda/LambdaExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/lambda/LambdaProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/lambda/PrintSomething.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/lambda/LambdaMain.java" />
@@ -176,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/stream/world/WorldTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/intstream/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/intstream/MovieCollection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java" />
       </list>
     </option>
   </component>
@@ -492,6 +495,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.2540453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1009,8 +1013,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

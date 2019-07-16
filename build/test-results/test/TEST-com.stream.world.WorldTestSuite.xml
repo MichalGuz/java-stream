@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.stream.world.WorldTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-15T21:33:01" hostname="Dell-Komputer" time="0.04">
-  <properties/>
-  <testcase name="testGetPeopleQuantity" classname="com.stream.world.WorldTestSuite" time="0.04"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

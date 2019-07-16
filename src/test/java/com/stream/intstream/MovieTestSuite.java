@@ -1,5 +1,6 @@
 package com.stream.intstream;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.List;
@@ -13,5 +14,15 @@ public class MovieTestSuite {
         // when
         List<Movie> movies = movieCollection.getMovies();
 
+        // then
+        int numberOfMoviesReleasedAfter2010 = 0;
+
+        for(Movie movie: movies){
+            if (movie.getYearORelease() > 2010) {
+                numberOfMoviesReleasedAfter2010++;
+            }
+        }
+
+        Assert.assertEquals(3, numberOfMoviesReleasedAfter2010);
     }
 }
