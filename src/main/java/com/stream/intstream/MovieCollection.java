@@ -1,4 +1,4 @@
-package com.stream.intstream;
+package com.stream.intstream;ne
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +12,10 @@ public final class MovieCollection {
         movies.add(new Movie("title3", 2000, 103));
         movies.add(new Movie("title4", 2011, 142);
         movies.add(new Movie("title5", 2001, 98));
+    }
+
+    public List<Movie> getMovies() {
+        return new ArrayList<>(movies);
     }
 
 }
