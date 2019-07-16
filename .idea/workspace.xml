@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="333">
+              <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/intstream/MovieCollection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
@@ -315,12 +315,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.WorldTestSuite.testGetPeopleQuantity">
+  <component name="RunManager" selected="Gradle.MovieTestSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="MovieTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.stream.intstream.MovieTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SandStorageTestSuite.testGetSandBeansQuantity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -348,26 +368,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.stream.bigdecimal.SandStorageTestSuite.testGetSandBeansQuantityWithReduce&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SimpleInvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stream.invoice.simple.SimpleInvoiceTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -440,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MovieTestSuite" />
         <item itemvalue="Gradle.WorldTestSuite.testGetPeopleQuantity" />
         <item itemvalue="Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce" />
         <item itemvalue="Gradle.SandStorageTestSuite.testGetSandBeansQuantity" />
         <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
-        <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -462,9 +462,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SandStorageTestSuite_testGetSandBeansQuantityWithReduce - 2019.07.15 at 20h 48m 19s.xml">
-      <configuration name="SandStorageTestSuite.testGetSandBeansQuantityWithReduce" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 22h 00m 33s.xml">
       <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -492,10 +489,12 @@
     <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 23h 33m 02s.xml">
       <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="MovieTestSuite - 2019.07.16 at 23h 21m 39s.xml">
+      <configuration name="MovieTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.2540453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -989,18 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/intstream/MovieCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/book/BookMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1011,10 +998,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/intstream/MovieCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/intstream/MovieTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="333">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

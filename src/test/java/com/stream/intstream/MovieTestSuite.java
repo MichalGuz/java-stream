@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class MovieTestSuite {
     @Test
@@ -34,5 +35,11 @@ public class MovieTestSuite {
         // when
         List<Movie> movies = movieCollection.getMovies();
 
+        // then
+        int numberOfMoviesReelasedAfter2010 = IntStream.range(0, movies.size())
+                .filter(m -> movies.get(m).getYearORelease() > 2010)
+                .map(m -> 1)
+                .sum();
+        Assert.assertEquals(3, numberOfMoviesReelasedAfter2010);
     }
 }
