@@ -25,4 +25,14 @@ public class MovieTestSuite {
 
         Assert.assertEquals(3, numberOfMoviesReleasedAfter2010);
     }
+
+    @Test
+    public void testGetListUsingIntstream(){
+        // given
+        MovieCollection movieCollection = new MovieCollection();
+
+        // when
+        List<Movie> movies = movieCollection.getMovies();
+
+    }
 }
