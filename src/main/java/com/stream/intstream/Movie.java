@@ -22,4 +22,13 @@ public final class Movie {
     public int getLenghtInMinutes() {
         return lenghtInMinutes;
     }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "title='" + title + '\'' +
+                ", yearORelease=" + yearORelease +
+                ", lenghtInMinutes=" + lenghtInMinutes +
+                '}';
+    }
 }
