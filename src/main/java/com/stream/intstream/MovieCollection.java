@@ -10,12 +10,11 @@ public final class MovieCollection {
         movies.add(new Movie("title1", 2015, 95));
         movies.add(new Movie("title2", 2018, 120));
         movies.add(new Movie("title3", 2000, 103));
-        movies.add(new Movie("title4", 2011, 142);
+        movies.add(new Movie("title4", 2011, 142));
         movies.add(new Movie("title5", 2001, 98));
     }
 
     public List<Movie> getMovies() {
         return new ArrayList<>(movies);
     }
-
 }
