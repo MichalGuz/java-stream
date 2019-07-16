@@ -7,7 +7,7 @@ import java.util.List;
 
 public class MovieTestSuite {
     @Test
-    public void testGetListUsing() {
+    public void testGetListUsingFor() {
         // given
         MovieCollection movieCollection = new MovieCollection();
 
