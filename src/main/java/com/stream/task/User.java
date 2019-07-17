@@ -8,4 +8,12 @@ public final class User {
         this.userName = userName;
         this.realName = realName;
     }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getRealName() {
+        return realName;
+    }
 }
