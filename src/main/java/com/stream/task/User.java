@@ -1,5 +1,7 @@
 package com.stream.task;
 
+import java.util.Objects;
+
 public final class User {
     private final String userName;
     private final String realName;
@@ -23,5 +25,14 @@ public final class User {
                 "userName='" + userName + '\'' +
                 ", realName='" + realName + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(getUserName(), user.getUserName()) &&
+                Objects.equals(getRealName(), user.getRealName());
     }
 }
