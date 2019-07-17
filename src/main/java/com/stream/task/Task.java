@@ -42,4 +42,16 @@ public final class Task {
     public LocalDate getDeadline() {
         return deadline;
     }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", assignedUser=" + assignedUser +
+                ", creator=" + creator +
+                ", created=" + created +
+                ", deadline=" + deadline +
+                '}';
+    }
 }
