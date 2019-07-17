@@ -10,5 +10,7 @@ public interface ArrayOperations {
         double average = IntStream.range(0, numbers.length)
                 .average()
                 .getAsDouble();
+
+        return average;
     }
 }
