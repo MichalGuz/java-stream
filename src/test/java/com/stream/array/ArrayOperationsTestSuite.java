@@ -12,5 +12,8 @@ public class ArrayOperationsTestSuite {
             i++;
         }
 
+        // when
+        double result = ArrayOperations.getAverage(numbers);
+
     }
 }
