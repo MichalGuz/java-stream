@@ -32,7 +32,6 @@ public final class User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return Objects.equals(getUserName(), user.getUserName()) &&
-                Objects.equals(getRealName(), user.getRealName());
+        return Objects.equals(getUserName(), user.getUserName());
     }
 }
