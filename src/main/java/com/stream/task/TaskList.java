@@ -35,4 +35,12 @@ public final class TaskList {
     public boolean removeTask(Task task){
         return tasks.remove(task);
     }
+
+    public List<Task> getTasks(){
+        return new LinkedList<>(tasks);
+    }
+
+    public String getName() {
+        return name;
+    }
 }
