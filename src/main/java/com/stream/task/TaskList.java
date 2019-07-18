@@ -2,6 +2,7 @@ package com.stream.task;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
 public final class TaskList {
     private final List<Task> tasks = new LinkedList<>();
@@ -9,5 +10,22 @@ public final class TaskList {
 
     public TaskList(final String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "TaskList{" +
+                "tasks=" + tasks +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TaskList taskList = (TaskList) o;
+        return Objects.equals(tasks, taskList.tasks) &&
+                Objects.equals(name, taskList.name);
     }
 }
