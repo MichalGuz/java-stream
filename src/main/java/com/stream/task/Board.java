@@ -18,4 +18,12 @@ public final class Board {
     private boolean removeTaskList(TaskList taskList){
         return taskLists.remove(taskList);
     }
+
+    public List<TaskList> getTaskLists() {
+        return new ArrayList<>(taskLists);
+    }
+
+    public String getName() {
+        return name;
+    }
 }
