@@ -28,5 +28,11 @@ public final class TaskList {
         return Objects.equals(name, taskList.name);
     }
 
+    public void addTask(Task task){
+        tasks.add(task);
+    }
 
+    public boolean removeTask(Task task){
+        return tasks.remove(task);
+    }
 }
