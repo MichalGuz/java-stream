@@ -1,6 +1,7 @@
 package com.stream.task;
 
 import java.time.LocalDate;
+import java.util.prefs.BackingStoreException;
 
 public class BoardTestSuite {
     public Board prepeareTestData(){
@@ -29,6 +30,11 @@ public class BoardTestSuite {
         TaskList taskListDone = new TaskList("Done.");
         taskListDone.addTask(task6);
 
-
+        // boards
+        Board project = new Board("Project currency exchange.");
+        project.addTaskList(taskListToDo);
+        project.addTaskList(taskListInProgress;
+        project.addTaskList(taskListDone);
+        return project;
     }
 }
