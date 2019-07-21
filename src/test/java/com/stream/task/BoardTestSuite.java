@@ -1,5 +1,8 @@
 package com.stream.task;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 import java.time.LocalDate;
 import java.util.prefs.BackingStoreException;
 
@@ -17,7 +20,7 @@ public class BoardTestSuite {
         Task task3 = new Task("Prepare currency.", "Create currency for rates.", user2, user3, LocalDate.now().minusDays(20), LocalDate.now().plusDays(15));
         Task task4 = new Task("Calculator of currency.", "Create a simply calculator og currency.", user3, user4, LocalDate.now().minusDays(20), LocalDate.now().plusDays(10));
         Task task5 = new Task("Wallet.", "Prepare endpoints for Wallet application.", user3, user4, LocalDate.now().minusDays(15), LocalDate.now().plusDays(20));
-        Task task6 = new Task("Archive data.", "Archive data searching.", user4, user3 LocalDate.now().minusDays(10), LocalDate.now().minusDays(5));
+        Task task6 = new Task("Archive data.", "Archive data searching.", user4, user3, LocalDate.now().minusDays(10), LocalDate.now().minusDays(5));
 
         // taskLists
         TaskList taskListToDo = new TaskList("To do");
@@ -33,8 +36,20 @@ public class BoardTestSuite {
         // boards
         Board project = new Board("Project currency exchange.");
         project.addTaskList(taskListToDo);
-        project.addTaskList(taskListInProgress;
+        project.addTaskList(taskListInProgress);
         project.addTaskList(taskListDone);
         return project;
+    }
+
+    @Test
+    public void testAddTaskList(){
+        // given
+        Board project = prepeareTestData();
+        // when
+
+        // then
+        Assert.assertEquals(3, project.getTaskLists().size());
+
+
     }
 }
