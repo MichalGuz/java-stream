@@ -45,7 +45,9 @@ public class BoardTestSuite {
     public void testAddTaskList(){
         // given
         Board project = prepeareTestData();
+
         // when
+        // do nothing
 
         // then
         Assert.assertEquals(3, project.getTaskLists().size());
