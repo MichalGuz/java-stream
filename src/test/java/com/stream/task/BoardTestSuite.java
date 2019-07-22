@@ -63,5 +63,6 @@ public class BoardTestSuite {
         User user = new User("user1", "Adam Smith");
         List<Task> tasks = project.getTaskLists().stream()
                 .flatMap(taskList -> taskList.getTasks().stream())
+                .filter(u -> u.getAssignedUser().equals(user))
     }
 }
