@@ -72,4 +72,10 @@ public class BoardTestSuite {
         Assert.assertEquals(user, tasks.get(0).getAssignedUser());
         Assert.assertEquals(user, tasks.get(1).getAssignedUser());
     }
+
+    @Test
+    public void testAssTaskListFindOutdatedTask(){
+        // given
+        Board project = prepeareTestData();
+    }
 }
