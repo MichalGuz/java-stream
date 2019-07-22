@@ -83,5 +83,6 @@ public class BoardTestSuite {
         List<TaskList> undoneTask = new ArrayList<>();
         undoneTask.add(new TaskList("To do"));
         undoneTask.add(new TaskList("In progress"));
+        List<Task> tasks = project.getTaskLists().stream()
     }
 }
