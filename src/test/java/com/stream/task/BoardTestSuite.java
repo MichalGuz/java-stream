@@ -51,7 +51,11 @@ public class BoardTestSuite {
 
         // then
         Assert.assertEquals(3, project.getTaskLists().size());
+    }
 
-
+    @Test
+    public void testAddTaskListFindUsersTasks(){
+        // given
+        Board project = prepeareTestData();
     }
 }
