@@ -66,5 +66,10 @@ public class BoardTestSuite {
                 .flatMap(taskList -> taskList.getTasks().stream())
                 .filter(u -> u.getAssignedUser().equals(user))
                 .collect(Collectors.toList());
+
+        // then
+        Assert.assertEquals(2, tasks.size());
+        Assert.assertEquals(user, tasks.get(0).getAssignedUser());
+        Assert.assertEquals(user, tasks.get(1).getAssignedUser());
     }
 }
