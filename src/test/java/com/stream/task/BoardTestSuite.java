@@ -86,5 +86,6 @@ public class BoardTestSuite {
         List<Task> tasks = project.getTaskLists().stream()
                 .filter(undoneTask::contains)
                 .flatMap(taskList -> taskList.getTasks().stream())
+                .filter(task -> task.getDeadline().isBefore(LocalDate.now()))
     }
 }
