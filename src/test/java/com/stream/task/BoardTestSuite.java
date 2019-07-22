@@ -57,5 +57,9 @@ public class BoardTestSuite {
     public void testAddTaskListFindUsersTasks(){
         // given
         Board project = prepeareTestData();
+
+        // when
+        User user = new User("user1", "Adam Smith");
+
     }
 }
