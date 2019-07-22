@@ -62,5 +62,6 @@ public class BoardTestSuite {
         // when
         User user = new User("user1", "Adam Smith");
         List<Task> tasks = project.getTaskLists().stream()
+                .flatMap(taskList -> taskList.getTasks().stream())
     }
 }
