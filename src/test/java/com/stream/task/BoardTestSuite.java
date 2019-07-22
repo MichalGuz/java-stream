@@ -6,11 +6,10 @@ import org.junit.Test;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.prefs.BackingStoreException;
 import java.util.stream.Collectors;
 
 public class BoardTestSuite {
-    public Board prepeareTestData(){
+    public Board prepareTestData(){
         // users
         User user1 = new User("user1", "Adam Smith");
         User user2 = new User("user2", "John Glenn");
@@ -20,7 +19,7 @@ public class BoardTestSuite {
         // tasks
         Task task1 = new Task("Service of currency exchange rates.", "Write and test the service taking the currency exchange rates from different sources and comparing these rates.", user1, user2, LocalDate.now().minusDays(30), LocalDate.now().plusDays(30));
         Task task2 = new Task("Data for analysis.", "Create some HQL queries for analysis.", user1, user2, LocalDate.now().minusDays(25), LocalDate.now().plusDays(10));
-        Task task3 = new Task("Prepare currency.", "Create currency for rates.", user2, user3, LocalDate.now().minusDays(20), LocalDate.now().plusDays(15));
+        Task task3 = new Task("Prepare currency.", "Create currency for rates.", user2, user3, LocalDate.now().minusDays(20), LocalDate.now().minusDays(2));
         Task task4 = new Task("Calculator of currency.", "Create a simply calculator og currency.", user3, user4, LocalDate.now().minusDays(20), LocalDate.now().plusDays(10));
         Task task5 = new Task("Wallet.", "Prepare endpoints for Wallet application.", user3, user4, LocalDate.now().minusDays(15), LocalDate.now().plusDays(20));
         Task task6 = new Task("Archive data.", "Archive data searching.", user4, user3, LocalDate.now().minusDays(10), LocalDate.now().minusDays(5));
@@ -47,7 +46,7 @@ public class BoardTestSuite {
     @Test
     public void testAddTaskList(){
         // given
-        Board project = prepeareTestData();
+        Board project = prepareTestData();
 
         // when
         // do nothing
@@ -59,7 +58,7 @@ public class BoardTestSuite {
     @Test
     public void testAddTaskListFindUsersTasks(){
         // given
-        Board project = prepeareTestData();
+        Board project = prepareTestData();
 
         // when
         User user = new User("user1", "Adam Smith");
@@ -77,7 +76,7 @@ public class BoardTestSuite {
     @Test
     public void testAddTaskListFindTaskAfterTheDeadline(){
         // given
-        Board project = prepeareTestData();
+        Board project = prepareTestData();
 
         // when
         List<TaskList> undoneTask = new ArrayList<>();
