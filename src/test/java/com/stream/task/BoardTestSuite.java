@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.prefs.BackingStoreException;
 import java.util.stream.Collectors;
@@ -77,5 +78,8 @@ public class BoardTestSuite {
     public void testAssTaskListFindOutdatedTask(){
         // given
         Board project = prepeareTestData();
+
+        // when
+        List<TaskList> undoneTask = new ArrayList<>();
     }
 }
