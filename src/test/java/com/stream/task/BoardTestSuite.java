@@ -84,5 +84,6 @@ public class BoardTestSuite {
         undoneTask.add(new TaskList("To do"));
         undoneTask.add(new TaskList("In progress"));
         List<Task> tasks = project.getTaskLists().stream()
+                .filter(undoneTask::contains)
     }
 }
