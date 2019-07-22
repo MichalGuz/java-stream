@@ -87,5 +87,9 @@ public class BoardTestSuite {
                 .flatMap(taskList -> taskList.getTasks().stream())
                 .filter(task -> task.getDeadline().isBefore(LocalDate.now()))
                 .collect(Collectors.toList());
+
+        // then
+        Assert.assertEquals(1, tasks.size());
+        Assert.assertEquals("Prepare currency.", tasks.get(0).getTitle());
     }
 }
