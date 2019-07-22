@@ -81,5 +81,7 @@ public class BoardTestSuite {
 
         // when
         List<TaskList> undoneTask = new ArrayList<>();
+        undoneTask.add(new TaskList("To do"));
+        undoneTask.add(new TaskList("In progress"));
     }
 }
