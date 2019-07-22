@@ -75,7 +75,7 @@ public class BoardTestSuite {
     }
 
     @Test
-    public void testAssTaskListFindOutdatedTask(){
+    public void testAddTaskListFindTaskAfterTheDeadline(){
         // given
         Board project = prepeareTestData();
 
