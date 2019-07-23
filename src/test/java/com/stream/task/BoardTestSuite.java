@@ -99,6 +99,6 @@ public class BoardTestSuite {
         Board project = prepareTestData();
 
         // when
-        List<Task> inProgressTasks = new ArrayList<>();
+        List<TaskList> inProgressTasks = new ArrayList<>();
     }
 }
