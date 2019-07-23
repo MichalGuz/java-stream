@@ -101,5 +101,6 @@ public class BoardTestSuite {
         // when
         List<TaskList> inProgressTasks = new ArrayList<>();
         inProgressTasks.add(new TaskList("In progress"));
+        long tasksLongerThan10Days = project.getTaskLists().stream()
     }
 }
