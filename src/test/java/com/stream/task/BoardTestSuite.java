@@ -97,5 +97,8 @@ public class BoardTestSuite {
     public void testAddTaskListFindTaskLongerThan10Days(){
         // given
         Board project = prepareTestData();
+
+        // when
+        List<Task> inProgressTasks = new ArrayList<>();
     }
 }
