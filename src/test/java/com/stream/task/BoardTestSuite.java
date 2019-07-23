@@ -105,6 +105,7 @@ public class BoardTestSuite {
                 .filter(inProgressTasks::contains)
                 .flatMap(taskList -> taskList.getTasks().stream())
                 .map(task -> task.getCreated())
-                .filter(localDate -> localDate.compareTo(LocalDate.now().minusDays(10)))
+                .filter(localDate -> localDate.compareTo(LocalDate.now().minusDays(10)) <= 0)
+
     }
 }
