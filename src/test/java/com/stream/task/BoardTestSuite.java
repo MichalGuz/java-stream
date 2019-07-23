@@ -107,5 +107,8 @@ public class BoardTestSuite {
                 .map(task -> task.getCreated())
                 .filter(localDate -> localDate.compareTo(LocalDate.now().minusDays(10)) <= 0)
                 .count();
+
+        // then
+        Assert.assertEquals(3, tasksLongerThan10Days);
     }
 }
