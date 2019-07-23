@@ -103,5 +103,6 @@ public class BoardTestSuite {
         inProgressTasks.add(new TaskList("In progress"));
         long tasksLongerThan10Days = project.getTaskLists().stream()
                 .filter(inProgressTasks::contains)
+                .flatMap(taskList -> taskList.getTasks().stream())
     }
 }
