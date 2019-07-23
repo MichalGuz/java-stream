@@ -92,4 +92,10 @@ public class BoardTestSuite {
         Assert.assertEquals(1, tasks.size());
         Assert.assertEquals("Prepare currency.", tasks.get(0).getTitle());
     }
+
+    @Test
+    public void testAddTaskListFindTaskLongerThan10Days(){
+        // given
+        Board project = prepareTestData();
+    }
 }

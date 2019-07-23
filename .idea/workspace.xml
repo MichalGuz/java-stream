@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stream/task/BoardTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stream/task/BoardTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/task/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="e#700#701#0" expanded="true" />
                 <element signature="e#728#729#0" expanded="true" />
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/task/TaskList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="171">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/task/BoardTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="88" column="77" selection-start-line="88" selection-start-column="77" selection-end-line="88" selection-end-column="77" />
+            <state relative-caret-position="166">
+              <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -296,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.BoardTestSuite.testAddTaskList">
+  <component name="RunManager" selected="Gradle.BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -343,12 +343,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MovieTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stream.intstream.MovieTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.stream.task.BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -363,12 +363,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SandStorageTestSuite.testGetSandBeansQuantityWithReduce" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MovieTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stream.bigdecimal.SandStorageTestSuite.testGetSandBeansQuantityWithReduce&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.stream.intstream.MovieTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -421,11 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" />
         <item itemvalue="Gradle.BoardTestSuite.testAddTaskList" />
         <item itemvalue="Gradle.ArrayOperationsTestSuite" />
         <item itemvalue="Gradle.MovieTestSuite" />
         <item itemvalue="Gradle.WorldTestSuite.testGetPeopleQuantity" />
-        <item itemvalue="Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce" />
       </list>
     </recent_temporary>
   </component>
@@ -443,24 +443,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 22h 24m 43s.xml">
-      <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 22h 24m 47s.xml">
-      <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 22h 25m 42s.xml">
-      <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 22h 28m 36s.xml">
-      <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 22h 29m 13s.xml">
-      <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="WorldTestSuite_testGetPeopleQuantity - 2019.07.15 at 23h 33m 02s.xml">
-      <configuration name="WorldTestSuite.testGetPeopleQuantity" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="MovieTestSuite - 2019.07.16 at 23h 21m 39s.xml">
       <configuration name="MovieTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -473,11 +455,30 @@
     <history-entry file="BoardTestSuite_testAddTaskList - 2019.07.22 at 01h 16m 00s.xml">
       <configuration name="BoardTestSuite.testAddTaskList" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListFindTaskAfterTheDeadline - 2019.07.22 at 21h 07m 18s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListFindTaskAfterTheDeadline - 2019.07.22 at 21h 09m 42s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListFindTaskAfterTheDeadline - 2019.07.22 at 21h 09m 56s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListFindTaskAfterTheDeadline - 2019.07.22 at 21h 13m 21s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListFindTaskAfterTheDeadline - 2019.07.22 at 21h 14m 50s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testAddTaskListFindTaskAfterTheDeadline - 2019.07.22 at 21h 18m 13s.xml">
+      <configuration name="BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.27022654" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.27427185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,7 +492,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -506,45 +507,8 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5023148" side_tool="true" weight="0.2540453" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919255" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/calculator/CalculatorMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/beautifier/MainBeautifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -957,6 +921,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/task/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -966,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/task/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="e#700#701#0" expanded="true" />
             <element signature="e#728#729#0" expanded="true" />
@@ -981,18 +952,6 @@
             <element signature="e#1001#1002#0" expanded="true" />
             <element signature="e#1039#1040#0" expanded="true" />
             <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/task/TaskList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1013,10 +972,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/task/BoardTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="88" column="77" selection-start-line="88" selection-start-column="77" selection-end-line="88" selection-end-column="77" />
+        <state relative-caret-position="166">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/task/TaskList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
