@@ -111,4 +111,10 @@ public class BoardTestSuite {
         // then
         Assert.assertEquals(3, tasksLongerThan10Days);
     }
+
+    @Test
+    public void testAddTaskListAverageWorkingOnTask(){
+        // given
+        Board project = prepareTestData();
+    }
 }
