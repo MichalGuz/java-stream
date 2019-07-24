@@ -116,5 +116,8 @@ public class BoardTestSuite {
     public void testAddTaskListAverageWorkingOnTask(){
         // given
         Board project = prepareTestData();
+
+        // when
+        List<TaskList> inProgressTasks = new ArrayList<>();
     }
 }
