@@ -120,6 +120,7 @@ public class BoardTestSuite {
         // when
         List<TaskList> inProgressTasks = new ArrayList<>();
         inProgressTasks.add(new TaskList("In progress"));
+        double average = project.getTaskLists().stream()
 
     }
 }
