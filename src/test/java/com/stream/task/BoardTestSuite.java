@@ -122,6 +122,7 @@ public class BoardTestSuite {
         inProgressTasks.add(new TaskList("In progress"));
         double average = project.getTaskLists().stream()
                 .filter(inProgressTasks::contains)
+                .flatMap(taskList -> taskList.getTasks().stream())
 
     }
 }
