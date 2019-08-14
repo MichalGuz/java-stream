@@ -125,7 +125,7 @@ public class BoardTestSuite {
                 .flatMap(taskList -> taskList.getTasks().stream())
                 .map(task -> LocalDate.now().toEpochDay() - task.getCreated().toEpochDay())
                 .mapToDouble(t -> t.doubleValue())
-                .average().orElseThrow(0);
+                .average().orElse(0);
 
     }
 }
