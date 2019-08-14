@@ -124,5 +124,7 @@ public class BoardTestSuite {
                 .filter(inProgressTasks::contains)
                 .flatMap(taskList -> taskList.getTasks().stream())
                 .map(task -> LocalDate.now().toEpochDay() - task.getCreated().toEpochDay())
+                .mapToDouble()
+
     }
 }
