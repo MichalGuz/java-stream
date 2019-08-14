@@ -127,5 +127,8 @@ public class BoardTestSuite {
                 .mapToDouble(t -> t.doubleValue())
                 .average().orElse(0);
 
+        // then
+        Assert.assertEquals(20, average);
+
     }
 }
