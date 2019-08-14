@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.stream.task.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-23T18:03:45" hostname="Dell-Komputer" time="0.296">
+<testsuite name="com.stream.task.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-14T16:20:02" hostname="Dell-Komputer" time="0.295">
   <properties/>
-  <testcase name="testAddTaskListFindTaskLongerThan10Days" classname="com.stream.task.BoardTestSuite" time="0.296"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testAddTaskListAverageWorkingOnTask" classname="com.stream.task.BoardTestSuite" time="0.295"/>
+  <system-out><![CDATA[Average is : 20.0
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
