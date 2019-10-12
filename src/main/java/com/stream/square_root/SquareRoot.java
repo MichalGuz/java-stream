@@ -8,5 +8,6 @@ public class SquareRoot {
                 .mapToObj(x ->IntStream.of(IntStream.range(0,x).sum(), IntStream.range(0,x+1).sum()))
                 .map(a -> a.sum())
                 .filter(x -> Math.sqrt(x)%1 == 0)
+                .count();
     }
 }
