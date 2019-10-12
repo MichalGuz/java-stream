@@ -263,12 +263,12 @@
   </component>
   <component name="RunManager" selected="Application.SquareRoot">
     <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.mix.SquareRoot" />
+      <option name="MAIN_CLASS_NAME" value="com.stream.square_root.SquareRoot" />
       <module name="java-stream.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stream.mix.*" />
+          <option name="PATTERN" value="com.stream.square_root.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
