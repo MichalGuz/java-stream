@@ -10,4 +10,8 @@ public class SquareRoot {
                 .filter(x -> Math.sqrt(x)%1 == 0)
                 .count();
     }
+
+    public static void main(String[] args) {
+
+    }
 }
