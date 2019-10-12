@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stream.invoice.delta.SimpleInvoiceTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-22T21:02:23" hostname="Dell-Komputer" time="0.024">
+  <properties/>
+  <testcase name="testGetValueToPay" classname="com.stream.invoice.delta.SimpleInvoiceTestSuite" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
