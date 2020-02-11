@@ -2,6 +2,7 @@ package squareDigit;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class SquareDigit {
     public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class SquareDigit {
                 .mapToInt(v -> digits3.indexOf(v))
                 .map(v -> v*v)
                 .mapToObj(o -> o)
-
+                .collect(Collectors.toList());
 
     }
 }
