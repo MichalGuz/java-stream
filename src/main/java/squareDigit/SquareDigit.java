@@ -16,7 +16,7 @@ public class SquareDigit {
 
         List<Integer> ddd = digits3.stream()
                 .mapToInt(v -> digits3.indexOf(v))
-                .
+                .map(v -> v*v)
 
     }
 }
