@@ -21,5 +21,8 @@ public class SquareDigit {
                 .mapToObj(o -> o)
                 .collect(Collectors.toList());
 
+        for(Integer ints: ddd) {
+            System.out.println(ints);
+        }
     }
 }
