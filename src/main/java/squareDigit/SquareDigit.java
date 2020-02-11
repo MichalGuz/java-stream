@@ -11,6 +11,7 @@ public class SquareDigit {
         List<String> digits3 = new ArrayList<>();
         for (String i : digits2) {
             digits3.add(i);
+            System.out.println(i);
         }
     }
 }
