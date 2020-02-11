@@ -13,5 +13,8 @@ public class SquareDigit {
             digits3.add(i);
             System.out.println(i);
         }
+
+        List<Integer> ddd = digits3.stream()
+
     }
 }

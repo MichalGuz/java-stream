@@ -343,7 +343,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SquareRoot">
+  <component name="RunManager" selected="Application.SquareDigit">
+    <configuration name="SquareDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="squareDigit.SquareDigit" />
+      <module name="java-stream.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="squareDigit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stream.square_root.SquareRoot" />
       <module name="java-stream.main" />
@@ -363,26 +377,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="BoardTestSuite.testAddTaskList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.stream.task.BoardTestSuite.testAddTaskList&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -462,11 +456,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareDigit" />
         <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask" />
         <item itemvalue="Gradle.BoardTestSuite.testAddTaskListFindTaskLongerThan10Days" />
         <item itemvalue="Gradle.BoardTestSuite.testAddTaskListFindTaskAfterTheDeadline" />
-        <item itemvalue="Gradle.BoardTestSuite.testAddTaskList" />
       </list>
     </recent_temporary>
   </component>
