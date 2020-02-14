@@ -14,6 +14,10 @@ public class Valentines {
 
         for (int i = 0; i < splitted.length; i++) {
             String[] word = splitted[i].split("");
+            for (int u = 0; u < word.length; u++) {
+                element = word[u];
+                revealedTruth.add(element);
+            }
         }
     }
 }
