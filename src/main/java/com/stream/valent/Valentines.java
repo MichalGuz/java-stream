@@ -23,6 +23,8 @@ public class Valentines {
         }
 
         Collections.reverse(revealedTruth);
-
+        for (String of : revealedTruth) {
+            System.out.print(of.toUpperCase());
+        }
     }
 }
