@@ -11,5 +11,9 @@ public class Valentines {
         List<String> revealedTruth = new ArrayList<>();
         String element;
 
+
+        for (int i = 0; i < splitted.length; i++) {
+            String[] word = splitted[i].split("");
+        }
     }
 }
