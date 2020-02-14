@@ -26,5 +26,7 @@ public class Valentines {
         for (String of : revealedTruth) {
             System.out.print(of.toUpperCase());
         }
+
+        System.out.print("!!!");
     }
 }
