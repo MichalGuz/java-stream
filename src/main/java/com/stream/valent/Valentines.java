@@ -1,6 +1,7 @@
 package com.stream.valent;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Valentines {
@@ -20,5 +21,8 @@ public class Valentines {
             }
             revealedTruth.add(" ");
         }
+
+        Collections.reverse(revealedTruth);
+
     }
 }
