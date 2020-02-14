@@ -18,6 +18,7 @@ public class Valentines {
                 element = word[u];
                 revealedTruth.add(element);
             }
+            revealedTruth.add(" ");
         }
     }
 }
