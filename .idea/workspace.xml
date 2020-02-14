@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/stream/invoice/simple/SimpleInvoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/stream/invoice/simple/SimpleItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/stream/invoice/simple/SimpleProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/squareDigit/SquareDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/squareDigit/SquareDigit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/valent/Valentines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/valent/Valentines.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,14 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="78" lean-forward="true" selection-end-line="78" />
+            <state relative-caret-position="340">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/valent/Valentines.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -122,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/beautifier/MainBeautifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/iterate/StreamMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/iterate/NumbersGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/immutable/ForumUser.java" />
@@ -173,10 +169,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stream/square_root/SquareRoot.java" />
         <option value="$PROJECT_DIR$/src/main/java/ForOla.java" />
         <option value="$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stream/valent/Valentines.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="y" value="18" />
     <option name="width" value="1260" />
@@ -282,6 +279,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="valent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
               <item name="world" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForOla">
+  <component name="RunManager" selected="Application.SquareDigit">
     <configuration name="ForOla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ForOla" />
       <module name="java-stream.main" />
@@ -510,7 +516,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.35841423" />
@@ -522,12 +528,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5046296" side_tool="true" weight="0.35841423" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.29968944" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.29968944" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -578,13 +584,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1026,11 +1025,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="78" lean-forward="true" selection-end-line="78" />
+        <state relative-caret-position="340">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/valent/Valentines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
