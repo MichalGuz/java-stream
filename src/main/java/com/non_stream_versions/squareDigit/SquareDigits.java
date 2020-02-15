@@ -2,7 +2,7 @@ package com.non_stream_versions.squareDigit;
 
 public class SquareDigits {
     public static void main(String[] args) {
-        Integer bigNumber = 321;
+        Integer bigNumber = 54321;
         System.out.println("Basic numbers: " + bigNumber);
 
         String numbers = String.valueOf(bigNumber);
@@ -10,8 +10,8 @@ public class SquareDigits {
 
         String joined = "";
 
-        for (int i = 0; i < digitsInArray.length; i++) {
-            Integer in = Integer.parseInt(digitsInArray[i]);
+        for (String str: digitsInArray) {
+            Integer in = Integer.parseInt(str);
             Integer squared = in * in;
             String squaredString = Integer.toString(squared);
             joined = joined + squaredString;
