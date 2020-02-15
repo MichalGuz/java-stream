@@ -18,5 +18,6 @@ public class SquareDigitsStream {
                  .reduce((k, l) -> k + l);
 
          String squaredNumber = total.get();
+         Integer result = Integer.parseInt(squaredNumber);
      }
 }
