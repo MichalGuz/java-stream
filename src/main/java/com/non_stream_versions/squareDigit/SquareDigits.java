@@ -18,8 +18,9 @@ public class SquareDigits {
             Integer in = Integer.parseInt(digitsInArray[i]);
             listOfdigits.add(in);
             System.out.println(in);
-            Integer sq = in * in;
-            System.out.println("Squared number " + sq);
+            Integer sqaured = in * in;
+            System.out.println("Squared number " + sqaured);
+            joined = joined + sqaured;
         }
     }
 }
