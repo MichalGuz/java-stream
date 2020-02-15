@@ -12,6 +12,7 @@ public class SquareDigits {
         String[] digitsInArray = numbers.split("");
         List<Integer> listOfdigits = new ArrayList<>();
 
+        String joined = "";
 
         for (int r = 0; r < digitsInArray.length; r++) {
             Integer in = Integer.parseInt(digitsInArray[r]);
