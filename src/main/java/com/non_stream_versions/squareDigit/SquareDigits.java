@@ -14,13 +14,13 @@ public class SquareDigits {
 
         String joined = "";
 
-        for (int r = 0; r < digitsInArray.length; r++) {
-            Integer in = Integer.parseInt(digitsInArray[r]);
+        for (int i = 0; i < digitsInArray.length; i++) {
+            Integer in = Integer.parseInt(digitsInArray[i]);
             listOfdigits.add(in);
             System.out.println(in);
-            for (int sq = 0; sq < listOfdigits.size(); sq++) {
-                Integer dd = (listOfdigits.get(sq)) * (listOfdigits.get(sq));
-                System.out.println("dd " + dd);
+            for (int j = 0; j < listOfdigits.size(); j++) {
+                Integer sq = (listOfdigits.get(j)) * (listOfdigits.get(j));
+                System.out.println("dd " + sq);
             }
         }
     }
