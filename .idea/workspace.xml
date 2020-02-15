@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="" />
+    <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/non_stream_versions/squareDigit/SquareDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/non_stream_versions/squareDigit/SquareDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -50,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/social/SocialNetworkUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="65" selection-start-line="64" selection-end-line="65" />
+            <state relative-caret-position="969">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/squared_digits_stream/SquareDigitsStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="23" column="1" lean-forward="true" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/immutable/ForumUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/person/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" />
@@ -167,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stream/squared_digits_stream/SquareDigitsStream.java" />
       </list>
     </option>
   </component>
@@ -223,6 +246,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="squared_digits_stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SquareDigits">
+  <component name="RunManager" selected="Application.SquareDigitsStream">
     <configuration name="ForOla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ForOla" />
       <module name="java-stream.main" />
@@ -303,7 +336,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.non_stream_versions.squareDigit.*" />
+          <option name="PATTERN" value="com.non_stream_versions.square_digit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +345,12 @@
       </method>
     </configuration>
     <configuration name="SquareDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.non_stream_versions.squareDigit.SquareDigits" />
+      <option name="MAIN_CLASS_NAME" value="com.non_stream_versions.square_digit.SquareDigits" />
       <module name="java-stream.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.non_stream_versions.squareDigit.*" />
+          <option name="PATTERN" value="com.non_stream_versions.square_digit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,13 +358,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.square_root.SquareRoot" />
+    <configuration name="SquareDigitsStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.squared_digits_stream.SquareDigitsStream" />
       <module name="java-stream.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stream.square_root.*" />
+          <option name="PATTERN" value="com.stream.squared_digits_stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareDigitsStream" />
         <item itemvalue="Application.SquareDigits" />
         <item itemvalue="Application.Valentines" />
         <item itemvalue="Application.ForOla" />
         <item itemvalue="Application.SquareDigit" />
-        <item itemvalue="Application.SquareRoot" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +467,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.36488673" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.37135923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -499,16 +532,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/invoice/delta/SimpleInvoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/invoice/delta/SimpleInvoiceTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -878,6 +901,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ForOla.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/square_root/SquareRoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -889,6 +913,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/social/SocialNetworkUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -921,30 +955,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="35" column="1" lean-forward="true" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/social/SocialNetworkUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/squared_digits_stream/SquareDigitsStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="65" selection-start-line="64" selection-end-line="65" />
+        <state relative-caret-position="352">
+          <caret line="23" column="1" lean-forward="true" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>

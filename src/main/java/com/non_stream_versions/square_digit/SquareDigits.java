@@ -1,4 +1,4 @@
-package com.non_stream_versions.squareDigit;
+package com.non_stream_versions.square_digit;
 
 public class SquareDigits {
     public static void main(String[] args) {
