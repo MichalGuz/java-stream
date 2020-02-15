@@ -12,5 +12,7 @@ public class SquareDigitsStream {
          String[] digitsInArray = numbers.split("");
 
          Optional<String> total = Arrays.stream(digitsInArray)
+                 .map(Integer::parseInt)
+
      }
 }
