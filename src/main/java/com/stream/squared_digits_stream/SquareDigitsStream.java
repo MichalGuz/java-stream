@@ -4,5 +4,8 @@ public class SquareDigitsStream {
      public static void main(String[] args) {
          Integer bigNumber = 54321;
          System.out.println("Basic numbers: " + bigNumber);
+
+         String numbers = String.valueOf(bigNumber);
+
      }
 }
