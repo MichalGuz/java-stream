@@ -16,5 +16,7 @@ public class SquareDigitsStream {
                  .map(i -> i*i)
                  .map(j -> j.toString(j))
                  .reduce((k, l) -> k + l);
+
+         String squaredNumber = total.get();
      }
 }
