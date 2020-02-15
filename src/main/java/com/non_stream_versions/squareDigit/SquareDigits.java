@@ -1,8 +1,5 @@
 package com.non_stream_versions.squareDigit;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class SquareDigits {
     public static void main(String[] args) {
         Integer bigNumber = 321;
