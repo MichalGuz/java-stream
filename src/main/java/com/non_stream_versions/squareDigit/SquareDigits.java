@@ -10,16 +10,16 @@ public class SquareDigits {
 
         String numbers = String.valueOf(bigNumber);
         String[] digitsInArray = numbers.split("");
-        List<Integer> digits2 = new ArrayList<>();
+        List<Integer> listOfdigits = new ArrayList<>();
         List<Integer> digits3 = new ArrayList<>();
 
 
         for (int r = 0; r < digitsInArray.length; r++) {
             Integer in = Integer.parseInt(digitsInArray[r]);
-            digits2.add(in);
+            listOfdigits.add(in);
             System.out.println(in);
-            for (int sq = 0; sq < digits2.size(); sq++) {
-                Integer dd = (digits2.get(sq)) * (digits2.get(sq));
+            for (int sq = 0; sq < listOfdigits.size(); sq++) {
+                Integer dd = (listOfdigits.get(sq)) * (listOfdigits.get(sq));
                 digits3.add(dd);
                 System.out.println("dd " + dd);
             }
