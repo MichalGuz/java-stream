@@ -15,7 +15,6 @@ public class SquareDigits {
 
         for (int i = 0; i < digitsInArray.length; i++) {
             Integer in = Integer.parseInt(digitsInArray[i]);
-            System.out.println(in);
             Integer squared = in * in;
             String squaredString = Integer.toString(squared);
             joined = joined + squaredString;
