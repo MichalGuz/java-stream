@@ -6,6 +6,8 @@ import java.util.List;
 public class SquareDigits {
     public static void main(String[] args) {
         Integer bigNumber = 321;
+        System.out.println("Basic numbers: " + bigNumber);
+
         String numbers = String.valueOf(bigNumber);
         String[] digits1 = numbers.split("");
         List<Integer> digits2 = new ArrayList<>();
