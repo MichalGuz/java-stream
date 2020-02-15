@@ -11,7 +11,6 @@ public class SquareDigits {
         String numbers = String.valueOf(bigNumber);
         String[] digitsInArray = numbers.split("");
         List<Integer> listOfdigits = new ArrayList<>();
-        List<Integer> digits3 = new ArrayList<>();
 
 
         for (int r = 0; r < digitsInArray.length; r++) {
@@ -20,7 +19,6 @@ public class SquareDigits {
             System.out.println(in);
             for (int sq = 0; sq < listOfdigits.size(); sq++) {
                 Integer dd = (listOfdigits.get(sq)) * (listOfdigits.get(sq));
-                digits3.add(dd);
                 System.out.println("dd " + dd);
             }
         }
