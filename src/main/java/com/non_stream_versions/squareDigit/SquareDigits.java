@@ -10,13 +10,11 @@ public class SquareDigits {
 
         String numbers = String.valueOf(bigNumber);
         String[] digitsInArray = numbers.split("");
-        List<Integer> listOfdigits = new ArrayList<>();
 
         String joined = "";
 
         for (int i = 0; i < digitsInArray.length; i++) {
             Integer in = Integer.parseInt(digitsInArray[i]);
-            listOfdigits.add(in);
             System.out.println(in);
             Integer squared = in * in;
             String squaredString = Integer.toString(squared);
@@ -25,6 +23,5 @@ public class SquareDigits {
 
         Integer squaredNumbers = Integer.parseInt(joined);
         System.out.println("Squared numbers: " + squaredNumbers);
-
     }
 }
