@@ -1,4 +1,4 @@
-package squareDigit;
+package com.non_stream_versions.squareDigit;
 
 import java.util.ArrayList;
 import java.util.List;
