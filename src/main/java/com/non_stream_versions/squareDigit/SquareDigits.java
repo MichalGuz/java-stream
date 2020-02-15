@@ -22,5 +22,9 @@ public class SquareDigits {
             String squaredString = Integer.toString(squared);
             joined = joined + squaredString;
         }
+
+        Integer squaredNumbers = Integer.parseInt(joined);
+        System.out.println("Squared numbers: " + squaredNumbers);
+
     }
 }
