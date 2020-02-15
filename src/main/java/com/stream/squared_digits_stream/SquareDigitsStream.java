@@ -6,6 +6,6 @@ public class SquareDigitsStream {
          System.out.println("Basic numbers: " + bigNumber);
 
          String numbers = String.valueOf(bigNumber);
-
+         String[] digitsInArray = numbers.split("");
      }
 }
