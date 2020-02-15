@@ -19,5 +19,6 @@ public class SquareDigitsStream {
 
          String squaredNumber = total.get();
          Integer result = Integer.parseInt(squaredNumber);
+         System.out.println("Squared numbers: " + result);
      }
 }
