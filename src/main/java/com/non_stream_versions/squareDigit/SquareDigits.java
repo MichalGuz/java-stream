@@ -9,13 +9,13 @@ public class SquareDigits {
         System.out.println("Basic numbers: " + bigNumber);
 
         String numbers = String.valueOf(bigNumber);
-        String[] digits1 = numbers.split("");
+        String[] digitsInArray = numbers.split("");
         List<Integer> digits2 = new ArrayList<>();
         List<Integer> digits3 = new ArrayList<>();
 
 
-        for (int r = 0; r < digits1.length; r++) {
-            Integer in = Integer.parseInt(digits1[r]);
+        for (int r = 0; r < digitsInArray.length; r++) {
+            Integer in = Integer.parseInt(digitsInArray[r]);
             digits2.add(in);
             System.out.println(in);
             for (int sq = 0; sq < digits2.size(); sq++) {

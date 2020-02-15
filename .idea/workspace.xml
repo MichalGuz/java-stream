@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/squareDigit/SquareDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/squareDigit/SquareDigit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,10 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigit.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/iterate/NumbersGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/immutable/ForumUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/person/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/person/PersonMain.java" />
@@ -182,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stream/valent/Valentines.java" />
         <option value="$PROJECT_DIR$/src/main/java/squareDigit/SquareDigit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java" />
       </list>
     </option>
   </component>
@@ -970,10 +960,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/squareDigit/SquareDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
