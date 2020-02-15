@@ -5,8 +5,8 @@ import java.util.List;
 
 public class SquareDigits {
     public static void main(String[] args) {
-        Integer m = 321;
-        String numbers = String.valueOf(m);
+        Integer bigNumber = 321;
+        String numbers = String.valueOf(bigNumber);
         String[] digits1 = numbers.split("");
         List<Integer> digits2 = new ArrayList<>();
         List<Integer> digits3 = new ArrayList<>();
