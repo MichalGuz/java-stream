@@ -20,7 +20,8 @@ public class SquareDigits {
             System.out.println(in);
             Integer sqaured = in * in;
             System.out.println("Squared number " + sqaured);
-            joined = joined + sqaured;
+            String squaredString = Integer.toString(sqaured);
+            joined = joined + squaredString;
         }
     }
 }
