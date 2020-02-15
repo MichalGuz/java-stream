@@ -15,5 +15,6 @@ public class SquareDigitsStream {
                  .map(Integer::parseInt)
                  .map(i -> i*i)
                  .map(j -> j.toString(j))
+                 .reduce((k, l) -> k + l);
      }
 }
