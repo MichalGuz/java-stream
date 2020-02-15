@@ -13,6 +13,7 @@ public class SquareDigitsStream {
 
          Optional<String> total = Arrays.stream(digitsInArray)
                  .map(Integer::parseInt)
-
+                 .map(i -> i*i)
+                 .map(j -> j.toString(j))
      }
 }
