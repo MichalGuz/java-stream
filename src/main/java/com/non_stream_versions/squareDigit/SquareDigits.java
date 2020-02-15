@@ -3,7 +3,7 @@ package com.non_stream_versions.squareDigit;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SquareDigit {
+public class SquareDigits {
     public static void main(String[] args) {
         Integer m = 321;
         String numbers = String.valueOf(m);
