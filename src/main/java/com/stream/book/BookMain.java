@@ -7,11 +7,11 @@ public class BookMain {
     public static void main(String[] args) {
         BookDirectory bookDirectory = new BookDirectory();
         bookDirectory.getList().stream()
-                .filter(book -> book.getYearORelease() > 2010)
+                .filter(book -> book.getYearOfRelease() > 2010)
                 .forEach(System.out::println);
 
         List<Book> theResultList = bookDirectory.getList().stream()
-                .filter(book -> book.getYearORelease() >2000)
+                .filter(book -> book.getYearOfRelease() >2000)
                 .collect(Collectors.toList());
 
         System.out.println("Elements in the list: " + theResultList.size());

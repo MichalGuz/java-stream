@@ -2,7 +2,7 @@ package com.non_stream_versions.square_digit;
 
 public class SquareDigits {
     public static void main(String[] args) {
-        Integer bigNumber = 54321;
+        Integer bigNumber = 543021;
         System.out.println("Basic numbers: " + bigNumber);
 
         String numbers = String.valueOf(bigNumber);

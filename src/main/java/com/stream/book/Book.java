@@ -3,12 +3,12 @@ package com.stream.book;
 public final class Book {
     private final String author;
     private final String title;
-    private final int yearORelease;
+    private final int yearOfRelease;
 
-    public Book(final String author, final String title, final int yearORelease) {
+    public Book(final String author, final String title, final int yearOfRelease) {
         this.author = author;
         this.title = title;
-        this.yearORelease = yearORelease;
+        this.yearOfRelease = yearOfRelease;
     }
 
     public String getAuthor() {
@@ -19,8 +19,8 @@ public final class Book {
         return title;
     }
 
-    public int getYearORelease() {
-        return yearORelease;
+    public int getYearOfRelease() {
+        return yearOfRelease;
     }
 
     @Override
@@ -28,7 +28,7 @@ public final class Book {
         return "Book{" +
                 "author='" + author + '\'' +
                 ", title='" + title + '\'' +
-                ", yearORelease=" + yearORelease +
+                ", yearOfRelease=" + yearOfRelease +
                 '}';
     }
 }
