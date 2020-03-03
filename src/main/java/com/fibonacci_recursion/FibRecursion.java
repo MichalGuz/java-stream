@@ -11,5 +11,6 @@ public class FibRecursion {
 
     public static void main(String[] args) {
         int result = fibonacciFoundNumber(5);
+        System.out.println(result);
     }
 }
