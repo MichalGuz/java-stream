@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/stream/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/stream/book/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/stream/book/BookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/stream/book/BookMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/stream/squared_digits_stream/SquareDigitsStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/stream/squared_digits_stream/SquareDigitsStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/book/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/book/BookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/world/World.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -49,6 +36,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -69,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/book/BookMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/Scooter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/ScooterSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/ScooterMain.java" />
@@ -120,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stream/book/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Testt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java" />
       </list>
     </option>
   </component>
@@ -413,7 +409,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.2224919" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.22572815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,7 +423,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.29968944" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.29968944" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
