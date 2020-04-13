@@ -6,6 +6,7 @@ public class SquareDigitsFullStream {
         .chars()
                 .map(i -> Integer.parseInt(String.valueOf((char) i)))
                 .map(i -> i * i)
+                .mapToObj(String::valueOf)
                 .
         );
     }
