@@ -10,9 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/fibonacci_recursion/FibRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/fibonacci_recursion/FibRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/non_stream_versions/squareDigit/SquareDigits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/fibonacci_recursion/FibRecursion.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,6 +31,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-stream" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="java-stream" />
   </component>
@@ -41,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/world/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="221">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,11 +68,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/squared_digits_stream/SquareDigitsStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/squared_digits_full_stream/SquareDigitsFullStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -75,9 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/Scooter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/ScooterSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/scooter/ScooterMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/rooms/RoomCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stream/rooms/RoomMain.java" />
@@ -126,8 +162,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Testt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Practice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Copy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MainCopy.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="24" />
@@ -142,6 +187,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +198,11 @@
             <path>
               <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,17 +243,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="squared_digits_stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="world" type="462c0819:PsiDirectoryNode" />
+              <item name="squared_digits_full_stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-stream" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +279,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,6 +294,18 @@
       <recent name="com" />
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="run MainCopy" />
+      <command value="run MainCopy.java" />
+      <command value="MainCopy.java" />
+      <command value="java.com.MainCopy.java" />
+      <command value="MainCopy" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,21 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibRecursion">
-    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.book.BookMain" />
-      <module name="java-stream.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stream.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainCopy">
     <configuration name="FibRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fibonacci_recursion.FibRecursion" />
       <module name="java-stream.main" />
@@ -289,6 +327,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fibonacci_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.MainCopy" />
+      <module name="java-stream.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,10 +415,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FibRecursion" />
+        <item itemvalue="Application.SquareDigitsStream" />
+        <item itemvalue="Application.MainCopy" />
         <item itemvalue="Application.Testt" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BookMain" />
-        <item itemvalue="Application.SquareDigitsStream" />
       </list>
     </recent_temporary>
   </component>
@@ -416,9 +468,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.2289644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.24183674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,37 +481,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.29968944" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.36407766" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5046296" side_tool="true" weight="0.35841423" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -471,62 +494,38 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32928804" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32928804" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>public int getNumber() {
+        return number;
+    }</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>public Copy(int number, int secondNumber, String name){
+        this.number = number;
+        this.secondNumber =secondNumber;
+        this.name = name;
+    }</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/Asia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="72" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/bigdecimal/Australia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/world.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/com/stream/world/WorldTestSuite.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/bigdecimal/SandStorageTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/world/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/world/Continent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stream/world/WorldTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -815,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/array/ArrayOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -864,16 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/squared_digits_stream/SquareDigitsStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/rooms/RoomMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -895,9 +877,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Testt.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MainCopy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Copy.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="396" column="25" selection-start-line="396" selection-start-column="25" selection-end-line="396" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="646" column="16" selection-start-line="646" selection-start-column="16" selection-end-line="646" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Practice.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/world/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -905,10 +912,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fibonacci_recursion/FibRecursion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/non_stream_versions/square_digit/SquareDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="85">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/squared_digits_stream/SquareDigitsStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/squared_digits_full_stream/SquareDigitsFullStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
