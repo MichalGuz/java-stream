@@ -5,6 +5,7 @@ public class SquareDigitsFullStream {
         return Integer.parseInt(String.valueOf(n)
         .chars()
                 .map(i -> Integer.parseInt(String.valueOf((char) i)))
+                .map(i -> i * i)
                 .
         );
     }
