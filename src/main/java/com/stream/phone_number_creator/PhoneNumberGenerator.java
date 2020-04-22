@@ -13,5 +13,7 @@ public class PhoneNumberGenerator {
 
     public static void main(String[] args) {
         PhoneNumberGenerator p = new PhoneNumberGenerator();
+        int[] numbers = {8,6,6,3,1,4,5,5,4};
+
     }
 }
