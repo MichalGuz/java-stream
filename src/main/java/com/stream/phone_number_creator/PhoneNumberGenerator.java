@@ -8,6 +8,6 @@ public class PhoneNumberGenerator {
         for (int i: n){
             if (n[i]<0 || n[i]>9) throw new IllegalArgumentException("Array must contain only integers between 0-9.");
         }
-        String.format("(%d%d%d) %d%d%d-%d%d%d", IntStream.of(n).toArray());
+        return String.format("(%d%d%d) %d%d%d-%d%d%d", IntStream.of(n).toArray());
     }
 }
