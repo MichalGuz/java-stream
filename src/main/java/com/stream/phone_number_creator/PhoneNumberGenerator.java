@@ -10,4 +10,8 @@ public class PhoneNumberGenerator {
         }
         return String.format("(%d%d%d) %d%d%d-%d%d%d", IntStream.of(n).toArray());
     }
+
+    public static void main(String[] args) {
+        PhoneNumberGenerator p = new PhoneNumberGenerator();
+    }
 }
