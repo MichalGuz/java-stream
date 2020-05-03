@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 public class MumbledLettersStream {
     public static String accumWithStream(String s) {
         return IntStream.range(0, s.length())
-                .mapToObj(i -> Stream.generate(() -> s.charAt(i)).limit(i+1))
+                .mapToObj(i -> Stream.generate(() -> s.charAt(i)).limit(i+1).collect(StringBuilder::new, StringBuilder::append, StringBuilder::append))
 
     }
 }

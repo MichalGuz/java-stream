@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2fa3f3-6864-41dc-b453-3688952a8b06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stream/mumbled_letters/MumbledLettersStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stream/mumbled_letters/MumbledLettersStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/mumbled_letters/MumbledLettersStream.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <caret line="8" column="151" selection-start-line="8" selection-start-column="151" selection-end-line="8" selection-end-column="151" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,6 +427,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.26860842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -884,7 +885,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stream/mumbled_letters/MumbledLettersStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <caret line="8" column="151" selection-start-line="8" selection-start-column="151" selection-end-line="8" selection-end-column="151" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
