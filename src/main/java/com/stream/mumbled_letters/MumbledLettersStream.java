@@ -17,4 +17,9 @@ public class MumbledLettersStream {
                 .map(j -> j.substring(0,1).toUpperCase() + j.substring(1).toLowerCase())
                 .collect(Collectors.joining("-"));
     }
+
+    public static void main(String[] args) {
+        String result  = accumWithStream("TeSt");
+        System.out.println(result);
+    }
 }
